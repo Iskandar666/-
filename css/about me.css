@@ -1,0 +1,79 @@
+@charset "utf-8";
+body,html,{
+	width:100%;
+	height:100%;
+	}
+body,ul,ol,li,p,h1,h2,h3,h4,h5,h6,form,fieldset,table,td,img,div{
+	margin:0;
+	padding:0;
+	border:0;
+	}
+.content{
+	font-family: "Hiragino Sans GB","华文细黑","STHeiti","微软雅黑","Microsoft YaHei",SimHei,"Helvetica Neue",Helvetica,Arial,sans-serif;
+	width:785px;
+	height:1210px;
+	}
+h1{
+	font-weight:400;
+	margin:10px 0;
+	margin-top:20px;
+	}
+.content p{
+	display:inline-block;
+	margin:10px 0 10px 0;
+	letter-spacing:1px;
+	font-size:17px;
+	color:#444;
+	}
+.fk{
+	width:350px;
+	height:100px;
+	margin:15px 40px 15px 0;
+	font-size:30px;
+	float:left;
+	border:1px #ccc solid;
+	padding-top:10px;
+	}
+
+.fk img{
+	width:62px;
+	height:70px;
+	display:inline-block;
+	vertical-align:top;
+	float:left;
+	margin:10px;
+	}
+.fk span{
+	display:inline-block;
+	width:260px;
+	height:16px;
+	font-size:16px;
+	line-height:16px;
+	color:#777;
+	}
+.fk bdo{
+	display:inline-block;
+	width:268px;
+	height:40px;
+	float:right;
+	}
+.dt{
+	background:url(../img/dt.png);
+	width:785px;
+	height:550px;
+	background-size:785px 550px;
+	clear:left;
+	}
+.dt span{
+	width:765px;
+	display:block;
+	color:#777;
+	text-align:center;
+	}
+.dt bdo{
+	width:765px;
+	display:block;
+	font-size:50px;
+	color:#555;
+	text-align:center;
+	}
